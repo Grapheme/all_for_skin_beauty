@@ -93,9 +93,22 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.main-img {
+	width: 300px;
+}
 
+.header-title {
+	font-size: 1.5em;
+}
 
+.header-sub {
+	font-size: 0.8em;
+}
 
+.header-left {
+	margin-top: 50px;
+	line-height: 0.8em;
+}
 
 
 
