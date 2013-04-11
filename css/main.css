@@ -92,27 +92,323 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  
+html, body {
+	height: 100% !important;
+}
+
+ul,li,nav {
+	padding: 0 !important;
+}
+
+input {
+	border: 1px solid #d7d7d7;
+}
 
 .main-img {
-	width: 300px;
+	height: 290px;
+}
+
+.headerh {
+	height: 290px;
 }
 
 .header-title {
-	font-size: 1.5em;
+	font-size: 2em;
+	font-weight: 700;
+	color: #666666;
 }
 
 .header-sub {
-	font-size: 0.8em;
+	font-size: 0.9em;
+	color: #666666;
 }
 
 .header-left {
+	float:left;
+	text-align: center;
 	margin-top: 50px;
-	line-height: 0.8em;
+	line-height: 1.5em;
 }
 
+.header-line {
+	display: inline-block;
+	margin-bottom: 3px;
+	width: 80px;
+	height: 1.5px;
+	background: #666666;
+}
 
+.content-container {
+	width: 100%;
+	overflow: hidden;
+	background-color: #ebebeb;
+	padding-bottom: 1em;
+}
 
+.client-line {
+	padding: 9px 0 3.5em;
+}
 
+.shoping-cart {
+	text-transform: uppercase;
+	margin-left: -25px;
+}
+
+.shoping-cart img {
+	margin-right: 5px;
+}
+
+.index-div {
+	background: #ffffff;
+	height: 290px;
+	-webkit-transition: background 0.3s ease;
+  	-moz-transition: 	background 0.3s ease;
+  	-o-transition: 		background 0.3s ease;
+  	transition: 		background 0.3s ease;
+}
+
+.index-div:hover {
+	background: #cccccc;
+}
+
+.index-div:hover .view-img {
+	color: #000000;
+}
+
+.index-div, .adv-div {
+	margin-bottom: 10px;
+}
+
+.index-div-title {
+	margin-left:25px;
+	width: 50%;
+	font-size: 1.3em;
+	font-weight: 700;
+	line-height: 1em;
+}
+
+.index-div-text {
+	margin-left:25px;
+}
+
+.index-div .image {
+	float:left;
+	height:100%;
+	max-width: 50%;
+}
+
+.index-div .view-img {
+	position: absolute;
+	color: #ffffff;
+	text-decoration: none;
+	background: url("../img/view.png") no-repeat;
+	line-height: 58px;
+	text-align: center;
+	right: 10px;
+	bottom: 10px;
+	width: 58px;
+	height: 58px;
+}
+
+.index-div.index:nth-of-type(4n) .view-img{
+	left:10px;
+}
+
+.index-div.index:nth-of-type(4n+3) .view-img{
+	left:10px;
+}
+
+.index-div.index:nth-of-type(4n) .image {
+	float: right;
+}
+.index-div.index:nth-of-type(4n+3) .image {
+	float: right;
+}
+
+.index-div.article:nth-of-type(2n) .view-img{
+	left:10px;
+}
+
+.index-div.index:nth-of-type(1n) {
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+.index-div.index:nth-of-type(2n) {
+	margin-right: 0;
+}
+
+.index-div-cont {
+	float: left;
+}
+
+.index-div:nth-of-type(4n) .index-div-cont {
+	margin: 0;
+}
+
+.index-div:nth-of-type(4n+3) .index-div-cont {
+	margin: 0;
+}
+
+.article-div-cont {
+	float: left;
+}
+
+.index-div .image-art {
+	float: left;
+	max-width: 70%;
+	height: 290px;
+}
+
+.index-div:nth-child(2n) .image-art {
+	float: right;
+}
+
+.adv-div {
+	margin-left: 0;
+	margin-right: 0;
+	height: 290px;
+}
+
+.adv-div:nth-of-type(2) {
+	height: 590px;
+}
+
+.adv-div img {
+	height: 100%;
+	width: 100%;
+}
+
+.search-input {
+	width: 100%;
+}
+
+.menu-1 {
+	margin-left: 80px;
+	height: 100%;
+}
+
+.menu-1-option {
+	display: block;
+	text-transform: uppercase;
+	padding: 5px 0 5px 0;
+}
+
+.logreg {
+	position: absolute;
+	bottom: 30px;
+}
+
+.menu-2-option {
+	display: block;
+	padding: 2px 0 2px 0;
+}
+
+.menu-1-option,.logreg,.menu-2-option {
+	text-decoration: none;
+	color: #999999;
+}
+
+.new {
+	color: #ff3333;
+	font-weight: 700;
+}
+
+.menu-1-option:hover {
+	color: #000000;
+}
+
+.menu-2-option:hover {
+	color: #000000;
+}
+
+.logreg:hover {
+	color: #000000;
+}
+
+.article-left {
+	height: 290px;
+	overflow: hidden;
+	border-bottom: 1px solid #ffffff;
+}
+
+.article-left-title {
+	font-size: 1.1em;
+	font-weight: 700;
+	margin-top:0;
+	text-transform: uppercase;
+}
+
+.article-left-sub {
+	font-weight: 700;
+	white-space:nowrap;
+}
+
+.article-left-text {
+	color: #666666;
+}
+
+.tags {
+	font-size:1.2em;
+	color: #666666;
+}
+
+.tag {
+	text-decoration: none;
+	color: #666666;
+}
+
+.wrapper {
+	min-width: 100%;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+
+.footer-link {
+	color: #666666;
+	float: left;
+	text-decoration: none;
+	margin-right: 40px;
+}
+
+.footer-soc {
+	float: right;
+	margin-left: 5px;
+}
+
+.footer-link:hover {
+	color: #999999;
+}
+
+.disclaimer {
+	line-height: 1em;
+	margin-top: 1em;
+	color: #999999;
+}
+
+.disclaimer .title {
+	font-weight: 700;
+}
+
+.copy {
+	margin-top: 20px;
+	color: #999999;
+}
+
+.copy-sk {
+	float: left;	
+}
+
+.copy-gr {
+	float: right;
+}
+
+footer, .push {
+	height: 142px; /* .push must be the same height as .footer */
+}
 
 
 
