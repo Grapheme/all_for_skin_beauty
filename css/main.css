@@ -333,6 +333,23 @@ input {
 	border-bottom: 1px solid #ffffff;
 }
 
+.shop-left-cat {
+	display: block;
+	font-weight: 700;
+	margin: 5px 0 5px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.cat-open {
+	margin-bottom: 30px;
+}
+
+.cat-open a{
+	text-decoration: none;
+	color: #000000;
+}
+
 .article-left-title {
 	font-size: 1.1em;
 	font-weight: 700;
@@ -411,7 +428,73 @@ footer, .push {
 }
 
 
+.shop-div {
+	height: 320px;
+	margin-bottom: 50px;
+}
 
+.shop-div .shop-img{ 
+	max-width: 100%;
+	height: 290px;
+}
+
+.shop-new {
+	position: absolute;
+}
+
+.shop-desc {
+	position: absolute;
+	bottom: 0;
+	height: 85px;
+	width: 100%;
+}
+
+
+.shop-desc-top {
+	position: relative;
+	height: 55px;
+	background: #ffffff;
+}
+
+.shop-desc-bottom {
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+}
+
+.shop-desc-top p {
+	font-size: 0.9em;
+	padding: 7px;
+	color: #333333;
+}
+
+.price {
+	color: #333333;
+}
+
+.price-old {
+	margin-left: 10px;
+	text-decoration: line-through;
+	font-size: 0.8em;
+	color: #646464;
+}
+
+.add-cart {
+	position: absolute;
+	background: #999999;
+	color: #ffffff;
+	height: 25px;
+	right: 10px;
+	top: 2px;
+	line-height: 25px;
+	text-decoration: none;
+}
+
+.add-cart span{
+	font-size: 0.6em;
+	text-transform: uppercase;
+	margin: 0 15px 0 15px;
+}
 
 
 
