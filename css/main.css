@@ -496,9 +496,94 @@ footer, .push {
 	margin: 0 15px 0 15px;
 }
 
+.art-block {
+	background: #efefef;
+	height: 140px;
+	margin-bottom: 10px;
+}
 
+.art-block p {
+	margin-left: 10px;
+}
 
+.art-title {
+	font-weight: 700;
+	margin-top: 10px;
+}
 
+.art-text {
+	font-size: 0.8em;
+	margin-bottom: 0;
+}
+
+.read-more {
+	font-size: 0.8em;
+	font-weight: 700;
+	margin-top: 5px;
+}
+
+.art-sim {
+	color: #666666;
+}
+
+.one-item-wr {
+	margin-bottom: 10px;
+	background: #ffffff;
+}
+
+.one-item-div {
+	overflow: hidden;
+	margin: 20px;
+}
+
+.one-item-img {
+	float: left;
+}
+
+.one-item-img .one-img {
+	height: 290px;
+	max-width: 235px;
+}
+
+.one-item-desc {
+	position: relative;
+	margin-left: 20px;
+	text-align: justify;
+	width: 405px;
+	height: 290px;
+	float: left;
+}
+
+.one-item-title {
+	font-weight: 700;
+	margin-top: 0;
+}
+
+.one-item-text {
+	font-size: 0.8em;
+}
+
+.add-cart.item {
+	right: 0 !important;
+}
+
+.shop-desc-bottom.item {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.item-block {
+	overflow: hidden;
+	float: left;
+	margin-top: 30px;
+}
+
+.item-block .art-title {
+	font-size: 1.1em;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
 
 
 /* ==========================================================================
